@@ -1,0 +1,23 @@
+# image: docker-registry.kuwo-inc.com/kwfe-node:3.0.0
+image: beginor/gitlab-ce:11.3.0-ce.0 
+
+before_script:
+  - npm install
+
+test_stage:
+  only:
+    - master
+  tags:
+    - test
+  script:
+    - npm run build
+    
+# online:
+#   only:
+#     - tags
+#   tags:
+#     - activity
+#   script:
+#     - npm run build
+
+ 
