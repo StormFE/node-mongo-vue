@@ -1,7 +1,6 @@
 # win10系统-简单搭建一套前后端页面（vue，express，mongoDB）
 > 简单搞了一个hello world，也算是找了找全栈的门在哪里。网上的教程很多，但是有的默认你是知道一些后端基础，所以跟着做发现有不少步骤被省略导致爬坑难度较大。本篇就是根据我自身的爬坑经历总结的一些相对全乎的实现经历。当然每个命令，方法有什么意义还需要去翻[官方文档](https://docs.mongodb.com/manual/)
 
-
 ---
 
 ## 步骤0 - 先定个小目标
@@ -153,4 +152,4 @@ export default {
 }
 ```
 # 总结
-以上就是本次探索的摸门步骤，中间遇到主要的坑就是win环境启动mongo数据库，还有通过_id精确删除失败的问题。前后端项目文件访问[传送门](https://h5static.kuwo.cn/upload/image/5aa561e8bacfcb9b886fc78e2c7c88316abfb0ce28c2e29bc7a2e120991bdafc.jpg)，供同学们交流研究，有问题欢迎交流补充。
+以上就是本次探索的摸门步骤，中间遇到主要的坑就是win环境启动mongo数据库，还有通过_id精确删除失败的问题。前后端项目文件访问[传送门](https://github.com/StormFE/node-mongo-vue)，供同学们交流研究，有问题欢迎交流补充。
